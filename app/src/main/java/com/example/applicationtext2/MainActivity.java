@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra("pwd" , mPwd.getText().toString());
                     startActivity(intent);
                 }else {
-                    Toast.makeText(MainActivity.this,"登录失败，账号或密码错误！",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"登录失败，账号或者密码错误！",Toast.LENGTH_SHORT).show();
                 }
             }
         });
